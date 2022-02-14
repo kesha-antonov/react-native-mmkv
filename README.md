@@ -62,6 +62,13 @@ react-native-mmkv is sponsored by **getstream.io**. <br/>
 
 ```sh
 yarn add react-native-mmkv
+```
+
+If you use ```use_frameworks!``` in your ```Podfile```, change that line to
+
+```use_frameworks! :linkage => :static```
+
+```
 cd ios && pod install
 ```
 
