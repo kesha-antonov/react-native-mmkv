@@ -68,7 +68,7 @@ If you use ```use_frameworks!``` in your ```Podfile```, change that line to
 
 ```use_frameworks! :linkage => :static```
 
-```
+```sh
 cd ios && pod install
 ```
 
